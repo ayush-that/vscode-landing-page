@@ -1,0 +1,162 @@
+body {
+    background-color: #0D1117;
+    font-family: 'Segoe UI';
+}
+
+.home-screenshot-copilot {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.navbar {
+    padding-top: 50px;
+}
+
+.navbar-logo {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.home-screenshot-copilot-img {
+    height: 797px;
+    width: 1240px;
+}
+
+.swimlane-copilot {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-left: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swimlane-copilot p {
+    color: #9ba3b4;
+    font-weight: 500;
+}
+
+.swimlane-copilot-img {
+    height: 442px;
+    width: 800px;
+    margin-right: 215px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #9ba3b4;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.version a {
+    text-decoration: none;
+    color: #4DAAFC;
+}
+
+.version {
+    color: #4DAAFC;
+}
+
+.navbar-links a:hover {
+    color: white;
+}
+
+.navbar-links:link,
+.navbar-links:visited,
+.navbar-links:hover,
+.navbar-links:active {
+    text-decoration: none;
+    color: #9ba3b4;
+}
+
+.download-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0078d4;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+
+.search {
+    background: url('/assets/search-dark.svg') no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #31343A;
+    font-size: 16px;
+    margin-right: 3px;
+    font-size: 15px;
+}
+
+.search:placeholder {
+    color: #9ba3b4;
+}
+
+
+
+.download-button:hover {
+    background-color: #005BA4;
+}
+
+.download-button-navbar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #0078d4;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 220px;
+    font-weight: 500;
+}
+
+.download-button-navbar:hover {
+    background-color: #005BA4;
+}
+
+.copilot-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #26292F;
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
